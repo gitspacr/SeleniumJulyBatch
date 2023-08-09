@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.Reporting.ListenersTests"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.qa.testlayer.TestScripts_01">
+        <methods>
+          <include name="setup"/>
+          <include name="closeBrowser"/>
+          <include name="validateTitlePage"/>
+        </methods>
+      </class> <!-- com.qa.testlayer.TestScripts_01 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

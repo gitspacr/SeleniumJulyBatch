@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-08T03:19:09Z" name="Suite" finished-at="2023-08-08T03:20:07Z" duration-ms="58242">
+    <groups>
+    </groups>
+    <test started-at="2023-08-08T03:19:09Z" name="Test" finished-at="2023-08-08T03:20:07Z" duration-ms="58242">
+      <class name="com.qa.testlayer.TestScripts_01">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testlayer.TestScripts_01@8458f04]" started-at="2023-08-08T03:19:12Z" name="setup" finished-at="2023-08-08T03:19:22Z" duration-ms="10436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateFormSection(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testlayer.TestScripts_01@8458f04]" started-at="2023-08-08T03:19:22Z" name="validateFormSection" data-provider="passDataFromExcel" finished-at="2023-08-08T03:19:24Z" duration-ms="1838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Peter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jp@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[john123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFormSection -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.testlayer.TestScripts_01@8458f04]" started-at="2023-08-08T03:19:24Z" name="closeBrowser" finished-at="2023-08-08T03:19:25Z" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testlayer.TestScripts_01@8458f04]" started-at="2023-08-08T03:19:25Z" name="setup" finished-at="2023-08-08T03:19:32Z" duration-ms="7408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateFormSection(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testlayer.TestScripts_01@8458f04]" started-at="2023-08-08T03:19:32Z" name="validateFormSection" data-provider="passDataFromExcel" finished-at="2023-08-08T03:19:34Z" duration-ms="2311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Son]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ss@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ss123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFormSection -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.testlayer.TestScripts_01@8458f04]" started-at="2023-08-08T03:19:34Z" name="closeBrowser" finished-at="2023-08-08T03:19:34Z" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testlayer.TestScripts_01@8458f04]" started-at="2023-08-08T03:19:34Z" name="setup" finished-at="2023-08-08T03:19:41Z" duration-ms="6127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateFormSection(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testlayer.TestScripts_01@8458f04]" started-at="2023-08-08T03:19:41Z" name="validateFormSection" data-provider="passDataFromExcel" finished-at="2023-08-08T03:19:42Z" duration-ms="1630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jack]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jill]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jj@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jj123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFormSection -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.testlayer.TestScripts_01@8458f04]" started-at="2023-08-08T03:19:42Z" name="closeBrowser" finished-at="2023-08-08T03:19:42Z" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testlayer.TestScripts_01@8458f04]" started-at="2023-08-08T03:19:42Z" name="setup" finished-at="2023-08-08T03:19:49Z" duration-ms="6520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateFormSection(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testlayer.TestScripts_01@8458f04]" started-at="2023-08-08T03:19:49Z" name="validateFormSection" data-provider="passDataFromExcel" finished-at="2023-08-08T03:19:51Z" duration-ms="1984" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jim]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jt@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jt123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFormSection -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.testlayer.TestScripts_01@8458f04]" started-at="2023-08-08T03:19:51Z" name="closeBrowser" finished-at="2023-08-08T03:19:51Z" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testlayer.TestScripts_01@8458f04]" started-at="2023-08-08T03:19:51Z" name="setup" finished-at="2023-08-08T03:19:58Z" duration-ms="7466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateLinkText()[pri:0, instance:com.qa.testlayer.TestScripts_01@8458f04]" started-at="2023-08-08T03:19:58Z" name="validateLinkText" finished-at="2023-08-08T03:20:01Z" duration-ms="2152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLinkText -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.testlayer.TestScripts_01@8458f04]" started-at="2023-08-08T03:20:01Z" name="closeBrowser" finished-at="2023-08-08T03:20:01Z" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testlayer.TestScripts_01@8458f04]" started-at="2023-08-08T03:20:01Z" name="setup" finished-at="2023-08-08T03:20:07Z" duration-ms="6355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateTitlePage()[pri:0, instance:com.qa.testlayer.TestScripts_01@8458f04]" started-at="2023-08-08T03:20:07Z" name="validateTitlePage" finished-at="2023-08-08T03:20:07Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitlePage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.testlayer.TestScripts_01@8458f04]" started-at="2023-08-08T03:20:07Z" name="closeBrowser" finished-at="2023-08-08T03:20:07Z" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qa.testlayer.TestScripts_01 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
