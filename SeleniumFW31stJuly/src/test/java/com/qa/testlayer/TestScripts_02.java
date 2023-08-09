@@ -39,7 +39,12 @@ public class TestScripts_02 extends TestBase{
 	}
 	
 	
-	
+	@Test(priority=2)
+	public void validateTitlePage() throws Exception {
+		dropdown=new dropDownPage(driver);
+		dropdown.titleWindow();
+		
+	}
 	
 	
 	

@@ -83,6 +83,13 @@ public class dropDownPage extends TestBase{
 		}
 	}
 	
+	public void titleWindow() {
+		
+		String title=driver.getTitle();
+		log.info("get selected option"+" "+title);
+		
+	}
+	
 	
 
 }
